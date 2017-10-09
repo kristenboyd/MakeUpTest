@@ -1,0 +1,70 @@
+
+html {
+background-image: url("../images/nyx/nyx.jpg"); }
+
+* { margin: 0, padding 0; }
+
+body {
+  width: 962px;
+  background-color: white;
+  margin: 15px auto;
+  border: 1px solid black; }
+
+  h2 { padding: 1em; }
+
+  header {
+  	background-image:
+  		 -webkit-linear-gradient(45deg, white 10%, #E29C82 60%, #E67A51 90%);
+    border-bottom: 3px solid #7971CF;
+  }
+
+  main {
+    background-color: #F7D8CC;
+    height: 2350px;
+    width: 740px;
+    float: right;
+    border-left: 2px solid #7971CF; }
+
+aside {
+  color: red;
+  height: 2350px;
+  width: 220px;
+  float: left;
+  background-color: #F7D8CC;
+ }
+
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     width: 218px;
+     background-color: #E1D7F4;
+     border: 1px double #C8B6EA;
+ }
+
+ li a {
+     display: block;
+     color: #000;
+     padding: 5px 8px;
+     text-decoration: none;
+     text-align: center;
+
+ }
+
+ /* Change the link color on hover */
+ li a:hover {
+     background-color: #555;
+     color: white;
+ }
+ .active {
+    background-color: #E1D7F4;
+    color: #E1D7F4;
+}
+
+  footer {
+    color: black;
+    width: 962px;
+    height: 80px;
+    clear: both;
+    background-color: #E67A51;
+  }
